@@ -3,12 +3,12 @@
   --accent-primary-color: rgb(254, 226, 67);
   --accent-secondary-color: rgb(163, 142, 20);
   --accent-text-color: rgb(26, 26, 26);
+  --soft-white: #d1d0c5;
 }
 
 * {
   margin: 0;
   padding: 0;
   background-color: var(--dark-gray);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Inter", sans-serif;
 }

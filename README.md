@@ -1,3 +1,10 @@
 # DJ Song Queue Web Application
 
-When a user scans our associated QR code, it will send them to a form that allows them to write the name of a song, artist, or youtube link, and the dj will recieve these suggestions on their own DJ portal view.
+This application is a song recommendation queueing system. Users can recommend a song by scanning a QR code and typing in the name of a song or pasting in a link to the song via youtube, spotify, etc.
+
+When the user submits their request, the DJ will recieve these suggestions on their own portal view of the website.
+
+## Need to add
+
+- Portal Login
+- Checklist for song list

@@ -42,7 +42,7 @@ function SongForm() {
   };
   return (
     <div className="SongForm">
-      <h1 className="form_page_title">Queue A Song!</h1>
+      <h1 className="form_page_title">Request a Song!</h1>
       <form>
         <input
           value={songName}
@@ -66,9 +66,23 @@ function SongForm() {
           Submit
         </button>
       </form>
-      <a href="https://venmo.com/u/bookingmajestic">
-        Venmo at least <span id="tipAmount">$5</span> to get your song played.
-      </a>
+      <div className="paymentOptions">
+        <a href="https://venmo.com/u/bookingmajestic">
+          <span
+            className="iconify iconifySkills"
+            data-icon="ion:logo-venmo"
+          ></span>
+          <span className="text">$5 min</span>
+        </a>
+        <h3>OR</h3>
+        <a id="zelle">
+          <span
+            className="iconify iconifySkills"
+            data-icon="simple-icons:zelle"
+          ></span>
+          <span className="text"> (323) 392-8077</span>
+        </a>
+      </div>
     </div>
   );
 }
