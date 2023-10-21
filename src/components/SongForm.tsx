@@ -66,7 +66,7 @@ function SongForm() {
           Submit
         </button>
       </form>
-      <a href="https://venmo.com/u/Sergio-Hernandez-410">
+      <a href="https://venmo.com/u/bookingmajestic">
         Venmo at least <span id="tipAmount">$5</span> to get your song played.
       </a>
     </div>
