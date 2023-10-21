@@ -27,7 +27,6 @@ firebase-config.ts
 tsconfig.json
 tsconfig.node.json
 vite.config.ts
-.firebaseserc
 firebase.json
 build
 dist

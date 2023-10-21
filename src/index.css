@@ -1,8 +1,8 @@
 :root {
   --dark-gray: rgb(46, 46, 46);
-  --accent-primary-color: gold;
+  --accent-primary-color: rgb(254, 226, 67);
   --accent-secondary-color: rgb(163, 142, 20);
-  --accent-text-color: rgb(0, 0, 0);
+  --accent-text-color: rgb(26, 26, 26);
 }
 
 * {

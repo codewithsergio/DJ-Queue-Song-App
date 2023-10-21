@@ -17,7 +17,7 @@ function SongForm() {
   const sendForm = (e: React.MouseEvent<HTMLButtonElement>) => {
     // const date = new Date();
     e.preventDefault();
-    if (songName.length < 4) {
+    if (songName.length < 2) {
       alert("Please write the full name of the song.");
       return;
     }
@@ -31,7 +31,7 @@ function SongForm() {
       }),
     })
       .then(() => {
-        alert(`${name}, you have submitted successfully.`);
+        alert(`You have successfully added your song to our queue!`);
       })
       .catch((error) => {
         alert(error.message);
@@ -42,31 +42,33 @@ function SongForm() {
   };
   return (
     <div className="SongForm">
-      <h1 className="form_page_title">Queue a song for the party</h1>
-      <h2 className="tag_line">Think you have a good song in mind?</h2>
+      <h1 className="form_page_title">Queue A Song!</h1>
       <form>
         <input
           value={songName}
           onChange={(e) => setSongName(e.target.value)}
           type="text"
-          placeholder="Baby"
+          placeholder="Song Name"
         />
         <input
           value={songArtist}
           onChange={(e) => setSongArtist(e.target.value)}
           type="text"
-          placeholder="Justin Bieber"
+          placeholder="Artist Name"
         />
         <input
           value={songLink}
           onChange={(e) => setSongLink(e.target.value)}
           type="text"
-          placeholder="https://www.youtube.com/watch?v=kffacxfA7G4"
+          placeholder="Song Link (Youtube, Spotify, etc.)"
         />
         <button type="submit" onClick={sendForm}>
           Submit
         </button>
       </form>
+      <a href="https://venmo.com/u/Sergio-Hernandez-410">
+        Venmo at least <span id="tipAmount">$5</span> to get your song played.
+      </a>
     </div>
   );
 }
