@@ -1,0 +1,14 @@
+:root {
+  --dark-gray: rgb(46, 46, 46);
+  --accent-primary-color: gold;
+  --accent-secondary-color: rgb(163, 142, 20);
+  --accent-text-color: rgb(0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-gray);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
